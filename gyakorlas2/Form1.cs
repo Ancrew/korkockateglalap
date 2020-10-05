@@ -34,6 +34,7 @@ namespace gyakorlas2
         {
             g.Clear(Color.White);
             label1.Text = "Első  érték:";
+            textBox2.Enabled = true;
             try
             {
                 this.ertek1 = Convert.ToDouble(textBox1.Text);
@@ -60,7 +61,10 @@ namespace gyakorlas2
             catch
             {
                 if (!String.IsNullOrEmpty(textBox1.Text))
+                {
                     label1.Text += "(Hibás adat!)";
+                    textBox2.Enabled = false;
+                }
                 else
                     korSzamitas(2);
             }
@@ -69,7 +73,8 @@ namespace gyakorlas2
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
             g.Clear(Color.White);
-          
+            label2.Text = "Második érték:";
+            textBox1.Enabled = true;
             try
             {
                 g.Clear(Color.White);
@@ -82,8 +87,8 @@ namespace gyakorlas2
                 {
                     if (textBox1.Text != textBox2.Text)
                     {
-                        
-                        g.DrawRectangle(p, induloX, induloY, Convert.ToInt32(ertek1),Convert.ToInt32(ertek2));
+
+                        g.DrawRectangle(p, induloX, induloY, Convert.ToInt32(ertek1), Convert.ToInt32(ertek2));
                         label4.Text = "A téglalap kerülete= " + teglalapKeruletSzamolo() + "m";
                         label5.Text = "A téglalap területe= " + teglalapTeruletSzamolo() + "m2";
                         label3.Text = "";
@@ -99,8 +104,10 @@ namespace gyakorlas2
             }
             catch
             {
-                if (!String.IsNullOrEmpty(textBox2.Text))
-                    label2.Text += "(Hibás adat!)";
+                if (!String.IsNullOrEmpty(textBox2.Text)) { 
+                label2.Text += "(Hibás adat!)";
+                textBox1.Enabled = false;
+            }
                 else
                     korSzamitas(1);
             }
