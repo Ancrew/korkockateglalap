@@ -1,0 +1,10 @@
+C:\Users\peter\source\repos\gyakorlas2\gyakorlas2\obj\Debug\gyakorlas2.csprojAssemblyReference.cache
+C:\Users\peter\source\repos\gyakorlas2\gyakorlas2\obj\Debug\gyakorlas2.Form1.resources
+C:\Users\peter\source\repos\gyakorlas2\gyakorlas2\obj\Debug\gyakorlas2.Properties.Resources.resources
+C:\Users\peter\source\repos\gyakorlas2\gyakorlas2\obj\Debug\gyakorlas2.csproj.GenerateResource.cache
+C:\Users\peter\source\repos\gyakorlas2\gyakorlas2\obj\Debug\gyakorlas2.csproj.CoreCompileInputs.cache
+C:\Users\peter\source\repos\gyakorlas2\gyakorlas2\bin\Debug\gyakorlas2.exe.config
+C:\Users\peter\source\repos\gyakorlas2\gyakorlas2\bin\Debug\gyakorlas2.exe
+C:\Users\peter\source\repos\gyakorlas2\gyakorlas2\bin\Debug\gyakorlas2.pdb
+C:\Users\peter\source\repos\gyakorlas2\gyakorlas2\obj\Debug\gyakorlas2.exe
+C:\Users\peter\source\repos\gyakorlas2\gyakorlas2\obj\Debug\gyakorlas2.pdb
